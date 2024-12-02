@@ -138,3 +138,43 @@ iframe {
     margin: 0 auto; 
     display: block; 
 }
+
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input, select, textarea {
+    width: 40%;
+    padding: 8px;
+    border: 5px solid #6495ED;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center; /* Alinha verticalmente checkbox e label */
+    gap: 5px; /* Espaçamento entre o texto e o checkbox */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+
+.form-check-inline {
+    margin-right: 15px; /* Espaçamento horizontal para os checkboxes em linha */
+}
+
+.form-check-input {
+    width: auto;
+    height: auto;
+    order: 2; 
+}
+
+.form-check-label {
+    order: 1; 
+    font-size: 16px; 
+    color: #ffffff; 
+}
