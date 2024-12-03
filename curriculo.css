@@ -158,13 +158,13 @@ input, select, textarea {
 
 .form-check {
     display: flex;
-    align-items: center; /* Alinha verticalmente checkbox e label */
-    gap: 5px; /* Espaçamento entre o texto e o checkbox */
-    margin-bottom: 10px; /* Espaçamento entre os itens */
+    align-items: center; 
+    gap: 5px; 
+    margin-bottom: 10px; 
 }
 
 .form-check-inline {
-    margin-right: 15px; /* Espaçamento horizontal para os checkboxes em linha */
+    margin-right: 15px;
 }
 
 .form-check-input {
